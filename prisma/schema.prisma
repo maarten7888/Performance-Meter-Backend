@@ -7,6 +7,7 @@
 datasource db {
   provider = "mysql"
   url      = "mysql://tothepoi_db_user:6N34KP9%26Q%23IYgiW%21@mysql.tothepointcompany.nl:3306/tothepoi_performance_db"
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
 generator client {
