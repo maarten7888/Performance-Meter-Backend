@@ -6,7 +6,7 @@
 
 datasource db {
   provider = "mysql"
-  url      = "mysql://tothepoi_db_user:6N34KP9%26Q%23IYgiW%21@mysql.tothepointcompany.nl:3306/tothepoi_performance_db"
+  url      = "mysql://tothepoi_pm:63%401Cy9dz@mysql.tothepointcompany.nl:3306/tothepoi_performance_db"
   shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
@@ -41,3 +41,7 @@ model HourRegistration {
   projectId String
   project   Project @relation(fields: [projectId], references: [id])
 }
+gggg
+rreggggf
+
+cf')( fffeer_. ff22fg22tt)
